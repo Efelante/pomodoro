@@ -18,5 +18,5 @@ while true; do
 	sleep  300 && notify-send -u critical -t 0 -i $icon_path "Tomato" "`date`\nBack to work"
 
 	sleep 1500 && notify-send -u critical -t 0 -i $icon_path "Tomato" "`date`\nlong break"
-	sleep  300 && notify-send -u critical -t 0 -i $icon_path "Tomato" "`date`\nBack to work"
+	sleep  900 && notify-send -u critical -t 0 -i $icon_path "Tomato" "`date`\nBack to work"
 done
